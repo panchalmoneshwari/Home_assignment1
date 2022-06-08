@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F077817-D337-446E-AAC0-BA6D355CA1E6}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Home_assignment</RootNamespace>
+    <AssemblyName>Home_assignment</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Home_assignment.for_loop.Alphabets</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Containment\Flat.cs" />
+    <Compile Include="Containment\Order.cs" />
+    <Compile Include="Containment\Student.cs" />
+    <Compile Include="Do_while\palindrome.cs" />
+    <Compile Include="Do_while\Raised_to.cs" />
+    <Compile Include="Do_while\Simple_while_loop.cs" />
+    <Compile Include="Do_while\Alphabets.cs" />
+    <Compile Include="for loop\H_p.cs" />
+    <Compile Include="for loop\Nested_for\Dofor.cs" />
+    <Compile Include="if else\Fibonacci.cs" />
+    <Compile Include="Do_while\Factors.cs" />
+    <Compile Include="if else\Fact.cs" />
+    <Compile Include="for loop\Nested_for\Pattern.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of-A.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_B.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_C.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_D.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_E.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_F.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_G.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_H.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_I.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_J.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_K.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_L.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_M.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_N1.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_O.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_P.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_Q.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_R.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_S.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_T.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_U.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_V.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_W.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_X.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_Y.cs" />
+    <Compile Include="for loop\Nested_for\Pattern_of_Z.cs" />
+    <Compile Include="if else\Primeno.cs" />
+    <Compile Include="if else\Shape_pattern_.cs" />
+    <Compile Include="if else\Simple_for.cs" />
+    <Compile Include="if else\Sum_odd.cs" />
+    <Compile Include="if else\Table.cs" />
+    <Compile Include="if else\even_odd.cs" />
+    <Compile Include="if else\leapyear.cs" />
+    <Compile Include="Inheritance\Class1.cs" />
+    <Compile Include="New_patterns\Pattern_M.cs" />
+    <Compile Include="New_patterns\Practice1.cs" />
+    <Compile Include="Oops\Calculator.cs" />
+    <Compile Include="Oops\Car.cs" />
+    <Compile Include="Oops\Constructor.cs" />
+    <Compile Include="Oops\Country.cs" />
+    <Compile Include="Oops\Movie.cs" />
+    <Compile Include="Opps_4_4_22\Account_method.cs" />
+    <Compile Include="overriding.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="switch\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
